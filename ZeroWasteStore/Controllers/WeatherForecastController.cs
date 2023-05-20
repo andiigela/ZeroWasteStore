@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ZeroWasteStore.Controllers
+namespace MyStore.Controllers
 {
     [ApiController]
     [Route("[controller]")]

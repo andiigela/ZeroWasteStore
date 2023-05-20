@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ZeroWasteStore.Entities;
+using MyStore.Entities;
 
-namespace ZeroWasteStore.Data
+namespace MyStore.Data
 {
     public class StoreContext : DbContext
     {
@@ -9,5 +9,8 @@ namespace ZeroWasteStore.Data
         {
         }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Shipping> Shippings { get; set; }
+        public DbSet<Category> Categories { get; set; }
+
     }
 }

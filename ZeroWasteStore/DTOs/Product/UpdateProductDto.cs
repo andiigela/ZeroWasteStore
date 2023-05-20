@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ZeroWasteStore.DTOs.Product
+namespace MyStore.DTOs
 {
     public class UpdateProductDto
     {

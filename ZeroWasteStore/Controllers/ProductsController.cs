@@ -1,11 +1,12 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ZeroWasteStore.Data;
-using ZeroWasteStore.DTOs.Product;
-using ZeroWasteStore.Entities;
+using MyStore.Data;
+using MyStore.DTOs;
+using MyStore.Entities;
 
-namespace ZeroWasteStore.Controllers
+namespace MyStore.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -27,7 +28,7 @@ namespace ZeroWasteStore.Controllers
             return await context.Products.ToListAsync();
         }
 
-        [HttpGet("{id}", Name = "GetProduct")]
+        [HttpGet("{id}",Name = "GetProduct")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
             return await context.Products.FindAsync(id);
@@ -39,21 +40,20 @@ namespace ZeroWasteStore.Controllers
             var product = mapper.Map<Product>(productDto);
             context.Products.Add(product);
             var result = await context.SaveChangesAsync() > 0;
-            if (result) return CreatedAtRoute("GetProduct", new { Id = product.Id }, product);
-            return BadRequest(new ProblemDetails { Title = "Problem creating new product" });
+            if (result) return CreatedAtRoute("GetProduct", new { Id = product.Id},product);
+            return BadRequest(new ProblemDetails { Title = "Problem creating new product"});
         }
         [HttpPut]
         public async Task<ActionResult> UpdateProduct(UpdateProductDto productDto)
         {
             var product = await context.Products.FindAsync(productDto.Id);
-            if (product == null) return NotFound();
-            mapper.Map(productDto, product);
+            if(product == null) return NotFound();
+            mapper.Map(productDto,product);
             var result = await context.SaveChangesAsync() > 0;
             if (result)
             {
                 return NoContent();
-            }
-            else
+            }else
             {
                 return BadRequest(new ProblemDetails { Title = "Problem Updating Products" });
             }
@@ -62,13 +62,13 @@ namespace ZeroWasteStore.Controllers
         public async Task<ActionResult> DeleteProduct(int id)
         {
             var product = await context.Products.FindAsync(id);
-            if (product == null) return NotFound();
+            if(product == null) return NotFound();
             context.Products.Remove(product);
             var result = await context.SaveChangesAsync() > 0;
             if (result) return Ok();
             return BadRequest(new ProblemDetails { Title = "Problem deleting product" });
         }
-        
+
 
     }
 }
