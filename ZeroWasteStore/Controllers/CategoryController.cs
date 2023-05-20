@@ -3,15 +3,14 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyStore.Data;
+using MyStore.DTOs.Category;
 using MyStore.Entities;
-using MyStore.DTOs;
 
 namespace MyStore.Controllers
 {
-    public class CategoryController
-    {
-        [ApiController]
-        [Route("api/[controller]")]
+    [ApiController]
+    [Route("api/[controller]")]
+    
         public class CategoriesController : ControllerBase
         {
 
@@ -38,6 +37,8 @@ namespace MyStore.Controllers
 
             [HttpPost]
             public async Task<ActionResult<Category>> CreateCategory(CreateCategoryDto categoryDto)
+            
+            
             {
                 var category = mapper.Map<Category>(categoryDto);
                 context.Categories.Add(category);
@@ -75,4 +76,3 @@ namespace MyStore.Controllers
             }
         }
     }
-}
