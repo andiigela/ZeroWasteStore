@@ -19,7 +19,7 @@ builder.Services.AddDbContext<StoreContext>(options => options.UseSqlServer(
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(MappingProfiles).Assembly);
-
+builder.Services.AddCors();
 var app = builder.Build();
 
 using var scope = app.Services.CreateScope();
@@ -42,6 +42,7 @@ catch (Exception e)
     app.UseSwaggerUI();
 }
 
+app.UseCors(opt => { opt.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000");});
 app.UseAuthorization();
 
 app.MapControllers();

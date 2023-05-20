@@ -2,12 +2,10 @@
 
 #nullable disable
 
-namespace MyStore.Data.Migrations
+namespace ZeroWasteStore.Migrations
 {
-    /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class AddProdctsShippingsCategories : Migration
     {
-        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -33,7 +31,7 @@ namespace MyStore.Data.Migrations
                     Weight = table.Column<double>(type: "float", nullable: false),
                     Pickuplocation = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    trackingNumber = table.Column<int>(type: "int", nullable: false)
+                    TrackingNumber = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -71,7 +69,6 @@ namespace MyStore.Data.Migrations
                 column: "CategoryId");
         }
 
-        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(

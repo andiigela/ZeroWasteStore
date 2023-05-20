@@ -12,6 +12,6 @@ public class Shipping
     public Double Weight { get; set; }
     public String Pickuplocation { get; set; }
     public String Description { get; set; }
-    public int trackingNumber { get; set; }
+    public int TrackingNumber { get; set; }
     
 }

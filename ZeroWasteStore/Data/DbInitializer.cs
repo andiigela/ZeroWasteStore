@@ -54,7 +54,7 @@ namespace MyStore.Data
                     Weight = 10.5,
                     Pickuplocation = "Prishtine",
                     Description = "aaaa",
-                    trackingNumber = 1111,
+                    TrackingNumber = 1111,
 
                 }
             };
