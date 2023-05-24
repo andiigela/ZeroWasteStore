@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MyStore.Entities
+namespace ZeroWasteStore.Entities
 {
     public class Product
     {

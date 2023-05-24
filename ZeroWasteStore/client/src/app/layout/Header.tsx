@@ -22,13 +22,13 @@ const rightLinks = [
 export default function Header(props: Props) {
     return (
         <AppBar position="static" sx={{ mb: 4 }}>
-            
+
             <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <Box sx={{ display: 'flex', alignItems: 'center' }}>
                     <Typography variant="h6" sx={{ color: 'white', textDecoration: 'none' }} component={NavLink} to='/'>ZeroWaste</Typography>
                     <Switch color="default" onClick={props.changeTheme} defaultChecked />
                 </Box>
-                
+
 
 
                 <List sx={{ display: 'flex' }}>
@@ -46,24 +46,24 @@ export default function Header(props: Props) {
                             <ShoppingCart />
                         </Badge>
                     </IconButton>
-                        <List sx={{ display: 'flex' }}>
-                            {rightLinks.map((link) => (
-                                <ListItem
-                                    button component={NavLink} to={link.path} key={link.path} sx={{ color: 'inherit', typography: 'h7' }}
-                                >
-                                    {link.title.toUpperCase()}
-                                </ListItem>
-                            ))}
-                        </List>
-                    
-                </Box>
-                
+                    <List sx={{ display: 'flex' }}>
+                        {rightLinks.map((link) => (
+                            <ListItem
+                                button component={NavLink} to={link.path} key={link.path} sx={{ color: 'inherit', typography: 'h7' }}
+                            >
+                                {link.title.toUpperCase()}
+                            </ListItem>
+                        ))}
+                    </List>
 
-               
-               </Toolbar>
-                
-            
+                </Box>
+
+
+
+            </Toolbar>
+
+
         </AppBar>
-    
+
     );
 }

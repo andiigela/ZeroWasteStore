@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using MyStore.Data;
-using MyStore.RequestHelpers;
+using ZeroWasteStore.Data;
+using ZeroWasteStore.RequestHelpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +20,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(MappingProfiles).Assembly);
 builder.Services.AddCors();
+
 var app = builder.Build();
 
 using var scope = app.Services.CreateScope();
@@ -43,6 +44,7 @@ catch (Exception e)
 }
 
 app.UseCors(opt => { opt.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000");});
+
 app.UseAuthorization();
 
 app.MapControllers();

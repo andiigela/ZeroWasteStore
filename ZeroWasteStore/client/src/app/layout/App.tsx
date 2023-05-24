@@ -13,7 +13,7 @@ import Header from "./Header";
 function App() {
     const [darkMode, setDarkMode] = useState(false);
     const backgroundColor = darkMode ? 'rgb(255, 77, 106)' : 'rgb(240, 240, 240)';
-    const navbarColor = darkMode ? 'rgb(255, 77, 106)' : 'rgb(70, 123, 250)'; 
+    const navbarColor = darkMode ? 'rgb(255, 77, 106)' : 'rgb(70, 123, 250)';
     const theme = createTheme({
         palette: {
             background: {
@@ -22,7 +22,7 @@ function App() {
             primary: {
                 main: navbarColor
             },
-            
+
         }
     })
     function changeTheme() {
@@ -45,14 +45,14 @@ function App() {
                     <Route path='/contact' Component={ContactPage} />
 
                 </Routes>
-                
+
 
             </Container>
-      </ThemeProvider>
-          
-         
-      
-  );
+        </ThemeProvider>
+
+
+
+    );
 }
 
 export default App;

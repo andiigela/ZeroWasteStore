@@ -2,11 +2,11 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using MyStore.Data;
-using MyStore.DTOs;
-using MyStore.Entities;
+using ZeroWasteStore.Data;
+using ZeroWasteStore.DTOs;
+using ZeroWasteStore.Entities;
 
-namespace MyStore.Controllers
+namespace ZeroWasteStore.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

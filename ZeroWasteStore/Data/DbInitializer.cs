@@ -1,6 +1,6 @@
-﻿using MyStore.Entities;
+﻿using ZeroWasteStore.Entities;
 
-namespace MyStore.Data
+namespace ZeroWasteStore.Data
 {
     public static class DbInitializer
     {
@@ -54,7 +54,7 @@ namespace MyStore.Data
                     Weight = 10.5,
                     Pickuplocation = "Prishtine",
                     Description = "aaaa",
-                    TrackingNumber = 1111,
+                    trackingNumber = 1111,
 
                 }
             };

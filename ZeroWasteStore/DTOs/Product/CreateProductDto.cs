@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Runtime.InteropServices;
 
-namespace MyStore.DTOs
+namespace ZeroWasteStore.DTOs
 {
     public class CreateProductDto
     {

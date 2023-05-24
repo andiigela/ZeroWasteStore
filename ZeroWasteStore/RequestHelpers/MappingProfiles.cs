@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using MyStore.DTOs;
-using MyStore.DTOs.Category;
-using MyStore.Entities;
+using ZeroWasteStore.DTOs;
+using ZeroWasteStore.DTOs.Category;
+using ZeroWasteStore.Entities;
 
-namespace MyStore.RequestHelpers
+namespace ZeroWasteStore.RequestHelpers
 {
     public class MappingProfiles : Profile
     {

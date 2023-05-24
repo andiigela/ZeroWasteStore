@@ -1,8 +1,8 @@
-using MyStore.Entities;
 using System.ComponentModel.DataAnnotations;
+using ZeroWasteStore.Entities;
 
 
-namespace MyStore.DTOs.Category;
+namespace ZeroWasteStore.DTOs.Category;
 
 public class UpdateCategoryDto
 {
