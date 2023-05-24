@@ -5,12 +5,11 @@ using Microsoft.EntityFrameworkCore;
 using MyStore.Data;
 using MyStore.DTOs;
 using MyStore.Entities;
+using ZeroWasteStore.Controllers;
 
 namespace MyStore.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class ShippingController : ControllerBase
+    public class ShippingController : BaseApiController
     {
         private readonly StoreContext context;
         private readonly IMapper mapper;

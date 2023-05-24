@@ -5,12 +5,12 @@ using Microsoft.EntityFrameworkCore;
 using MyStore.Data;
 using MyStore.DTOs.Category;
 using MyStore.Entities;
+using ZeroWasteStore.Controllers;
 
 namespace MyStore.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    
+        [ApiController]
+        [Route("/api/[controller]")]
         public class CategoriesController : ControllerBase
         {
 

@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using MyStore.Data;
 using MyStore.RequestHelpers;
+using ZeroWasteStore.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,13 +36,16 @@ catch (Exception e)
     logger.LogError(e, "Problem Migrating Data");
 }
 
-    // Configure the HTTP request pipeline.
-    if (app.Environment.IsDevelopment())
+app.UseMiddleware<ExceptionMiddleware>();
+
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseRouting();
 app.UseCors(opt => { opt.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000");});
 app.UseAuthorization();
 

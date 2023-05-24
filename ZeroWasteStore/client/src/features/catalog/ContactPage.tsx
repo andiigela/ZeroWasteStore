@@ -5,5 +5,6 @@ export default function ContactPage() {
         <Typography variant='h2'>
             Contact Page
         </Typography>
+        
     );
 }
