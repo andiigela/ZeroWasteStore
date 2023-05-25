@@ -19,7 +19,7 @@ interface Props {
     product: Product;
     color: string
 }
-export default function ProductCard({ product }: Props) {
+export default function ProductCard(props: Props) {
     // @ts-ignore
     return (
         <Card>
@@ -28,7 +28,7 @@ export default function ProductCard({ product }: Props) {
                     <Avatar sx={{width: 30,height: 30}}>{props.product.name.charAt(0).toUpperCase()}</Avatar>
 
                 }
-                title={product.name}
+                title={props.product.name}
                 titleTypographyProps={{
                     style: {
                         fontSize: '14px', fontWeight: 'bold', color:props.color}
@@ -40,11 +40,11 @@ export default function ProductCard({ product }: Props) {
                 height="290"
 
                 image={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnLhiIch4qYn_lyWcxagcgJjYAcGb9EdcueA&usqp=CAU"}
-                title={product.name}
+                title={props.product.name}
             />
             <CardContent sx={{ position: 'relative', bottom: 10, height: 80 }}>
                 <Typography gutterBottom color='third' variant="h6" >
-                    ${product.price.toFixed(2)}
+                    ${props.product.price.toFixed(2)}
                 </Typography>
                 <Typography variant="body2" color="text.secondary" sx={{position: 'relative', bottom: 8}}>
                     {props.product.brand} / { props.product.type }
@@ -52,7 +52,7 @@ export default function ProductCard({ product }: Props) {
             </CardContent>
             <CardActions sx={{ height: 40, position: 'relative', bottom: 15, left: 5 }}>
                 <Button size="small" sx={{ backgroundColor: props.color, fontSize: '11px', padding: '10px', color: 'white', fontWeight: 'bold', ":hover": { backgroundColor: 'rgb(102, 161, 255)' } }}>Add to Cart</Button>
-                <Button size="small" sx={{ color: 'rgb(69, 139, 255)', ":hover": { backgroundColor: 'rgb(245, 245, 245)'} }}>View</Button>
+                <Button component={Link} to={`/catalog/${props.product.id}`} size="small" sx={{ color: 'rgb(69, 139, 255)', ":hover": { backgroundColor: 'rgb(245, 245, 245)' } }}>View</Button>
             </CardActions>
         </Card>
     );

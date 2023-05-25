@@ -2,13 +2,16 @@ using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using MyStore.Data;
-using MyStore.DTOs;
-using MyStore.Entities;
+using ZeroWasteStore.Data;
+using ZeroWasteStore.DTOs;
+using ZeroWasteStore.Entities;
+using ZeroWasteStore.Data;
 
-namespace ZeroWasteStore.Controllers
+namespace MyStore.Controllers
 {
-    public class ShippingController : BaseApiController
+    [ApiController]
+    [Route("api/[controller]")]
+    public class ShippingController : ControllerBase
     {
         private readonly StoreContext context;
         private readonly IMapper mapper;

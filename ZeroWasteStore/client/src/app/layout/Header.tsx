@@ -1,6 +1,6 @@
 ﻿import { ShoppingCart } from "@mui/icons-material";
 import { Badge, Box } from "@mui/material";
-import { AppBar, IconButton, List, ListItem, Switch, Toolbar, Typography } from "@mui/material";
+import { AppBar,IconButton,List,ListItem,Switch,Toolbar, Typography } from "@mui/material";
 import { NavLink } from "react-router-dom";
 
 
@@ -13,8 +13,8 @@ const midLinks = [
     { title: 'contact', path: '/contact' },
 ];
 const rightLinks = [
-    { title: 'login', path: '/login' },
-    { title: 'register', path: '/register' }
+    {title:'login',path:'/login'},
+    {title:'register',path:'/register'}
 ]
 
 
@@ -40,7 +40,7 @@ export default function Header(props: Props) {
                         </ListItem>
                     ))}
                 </List>
-                <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                <Box sx={{display:'flex',alignItems:'center'}}>
                     <IconButton sx={{ color: 'inherit' }} size='large'>
                         <Badge badgeContent={4} color='secondary'>
                             <ShoppingCart />

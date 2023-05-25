@@ -2,11 +2,11 @@ using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using MyStore.Data;
-using MyStore.DTOs.Category;
-using MyStore.Entities;
+using ZeroWasteStore.Data;
+using ZeroWasteStore.DTOs.Category;
+using ZeroWasteStore.Entities;
 
-namespace ZeroWasteStore.Controllers
+namespace MyStore.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -37,6 +37,8 @@ namespace ZeroWasteStore.Controllers
 
             [HttpPost]
             public async Task<ActionResult<Category>> CreateCategory(CreateCategoryDto categoryDto)
+            
+            
             {
                 var category = mapper.Map<Category>(categoryDto);
                 context.Categories.Add(category);
