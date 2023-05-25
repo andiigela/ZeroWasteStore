@@ -2,15 +2,15 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ZeroWasteStore.Controllers;
 using ZeroWasteStore.Data;
 using ZeroWasteStore.DTOs;
 using ZeroWasteStore.Entities;
 
 namespace MyStore.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class ProductsController : ControllerBase
+   
+    public class ProductsController : BaseApiController
     {
 
         private readonly StoreContext context;

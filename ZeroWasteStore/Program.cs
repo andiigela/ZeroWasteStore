@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ZeroWasteStore.Data;
+using ZeroWasteStore.Middleware;
 using ZeroWasteStore.RequestHelpers;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -36,8 +37,9 @@ catch (Exception e)
     logger.LogError(e, "Problem Migrating Data");
 }
 
-//app.UseMiddleware<ExceptionMiddleware>();
+app.UseMiddleware<ExceptionMiddleware>();
 
+//app.UseDeveloperExceptionPage();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

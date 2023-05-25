@@ -2,16 +2,14 @@ using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ZeroWasteStore.Controllers;
 using ZeroWasteStore.Data;
 using ZeroWasteStore.DTOs.Category;
 using ZeroWasteStore.Entities;
 
 namespace MyStore.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    
-        public class CategoriesController : ControllerBase
+        public class CategoriesController : BaseApiController
         {
 
             private readonly StoreContext context;

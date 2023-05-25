@@ -2,15 +2,16 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import agent from "../../app/api/agent";
 import { Product } from "../../app/models/Product";
 
 export default function ProductDetails() {
-    const { id } = useParams<{ id: string }>();
+    const { id } = useParams<{ id: string | string}>();
     const [product, setProduct] = useState<Product | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        axios.get(`http://localhost:5280/api/Products/${id}`)
+        axios.get(`http://localhost:5280/api/Products/${id}`) //  agent.Catalog.details(parseInt(id)) 
             .then(response => setProduct(response.data))
             .catch(error => console.log(error))
             .finally(() => setLoading(false));
