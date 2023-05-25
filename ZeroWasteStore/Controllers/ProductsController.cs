@@ -5,9 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using MyStore.Data;
 using MyStore.DTOs;
 using MyStore.Entities;
-using ZeroWasteStore.Controllers;
 
-namespace MyStore.Controllers
+namespace ZeroWasteStore.Controllers
 {
     public class ProductsController : BaseApiController
     {

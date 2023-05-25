@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MyStore.Entities;
+namespace ZeroWasteStore.Entities;
 
 public class Shipping
 {
@@ -12,6 +12,6 @@ public class Shipping
     public Double Weight { get; set; }
     public String Pickuplocation { get; set; }
     public String Description { get; set; }
-    public int TrackingNumber { get; set; }
+    public int trackingNumber { get; set; }
     
 }

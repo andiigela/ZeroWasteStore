@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MyStore.Data;
+using ZeroWasteStore.Data;
 
 #nullable disable
 
-namespace ZeroWasteStore.Migrations
+namespace ZeroWasteStore.Data.Migrations
 {
     [DbContext(typeof(StoreContext))]
     partial class StoreContextModelSnapshot : ModelSnapshot
@@ -17,18 +17,18 @@ namespace ZeroWasteStore.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.16")
+                .HasAnnotation("ProductVersion", "7.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("MyStore.Entities.Category", b =>
+            modelBuilder.Entity("ZeroWasteStore.Entities.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -43,13 +43,13 @@ namespace ZeroWasteStore.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("MyStore.Entities.Product", b =>
+            modelBuilder.Entity("ZeroWasteStore.Entities.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Brand")
                         .IsRequired()
@@ -86,13 +86,13 @@ namespace ZeroWasteStore.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("MyStore.Entities.Shipping", b =>
+            modelBuilder.Entity("ZeroWasteStore.Entities.Shipping", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -102,25 +102,25 @@ namespace ZeroWasteStore.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TrackingNumber")
-                        .HasColumnType("int");
-
                     b.Property<double>("Weight")
                         .HasColumnType("float");
+
+                    b.Property<int>("trackingNumber")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.ToTable("Shippings");
                 });
 
-            modelBuilder.Entity("MyStore.Entities.Product", b =>
+            modelBuilder.Entity("ZeroWasteStore.Entities.Product", b =>
                 {
-                    b.HasOne("MyStore.Entities.Category", null)
+                    b.HasOne("ZeroWasteStore.Entities.Category", null)
                         .WithMany("ListOfProducts")
                         .HasForeignKey("CategoryId");
                 });
 
-            modelBuilder.Entity("MyStore.Entities.Category", b =>
+            modelBuilder.Entity("ZeroWasteStore.Entities.Category", b =>
                 {
                     b.Navigation("ListOfProducts");
                 });

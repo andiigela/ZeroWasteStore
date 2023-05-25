@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace MyStore.DTOs;
+namespace ZeroWasteStore.DTOs;
 
 public class CreateShippingDto
 {

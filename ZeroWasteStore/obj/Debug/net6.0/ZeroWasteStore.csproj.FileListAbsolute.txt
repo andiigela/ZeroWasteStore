@@ -1,218 +1,93 @@
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/appsettings.Development.json
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/appsettings.json
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/ZeroWasteStore.exe
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/ZeroWasteStore.deps.json
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/ZeroWasteStore.runtimeconfig.json
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/ZeroWasteStore.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/ZeroWasteStore.pdb
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/AutoMapper.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Humanizer.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Identity.Client.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Microsoft.OpenApi.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/System.Drawing.Common.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/System.Runtime.Caching.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/System.Security.Permissions.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/System.Windows.Extensions.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.csproj.AssemblyReference.cache
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.AssemblyInfoInputs.cache
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.AssemblyInfo.cs
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.csproj.CoreCompileInputs.cache
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.MvcApplicationPartsAssemblyInfo.cs
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.MvcApplicationPartsAssemblyInfo.cache
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/staticwebassets/msbuild.ZeroWasteStore.Microsoft.AspNetCore.StaticWebAssets.props
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/staticwebassets/msbuild.build.ZeroWasteStore.props
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.ZeroWasteStore.props
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.ZeroWasteStore.props
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/staticwebassets.pack.json
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/staticwebassets.build.json
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/staticwebassets.development.json
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/scopedcss/bundle/ZeroWasteStore.styles.css
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.csproj.CopyComplete
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/refint/ZeroWasteStore.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.pdb
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.genruntimeconfig.cache
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/obj/Debug/net6.0/ref/ZeroWasteStore.dll
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/client/package-lock.json
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/client/package.json
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/client/public/manifest.json
-C:/Users/andig/Desktop/.NET Folders/ZeroWasteStore/ZeroWasteStore/bin/Debug/net6.0/client/tsconfig.json
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/appsettings.Development.json
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/appsettings.json
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/ZeroWasteStore
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/ZeroWasteStore.deps.json
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/ZeroWasteStore.runtimeconfig.json
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/ZeroWasteStore.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/ZeroWasteStore.pdb
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/AutoMapper.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Humanizer.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Identity.Client.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Microsoft.OpenApi.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/System.Drawing.Common.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/System.Runtime.Caching.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/System.Security.Permissions.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/System.Windows.Extensions.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.csproj.AssemblyReference.cache
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.GeneratedMSBuildEditorConfig.editorconfig
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.AssemblyInfoInputs.cache
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.AssemblyInfo.cs
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.csproj.CoreCompileInputs.cache
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.MvcApplicationPartsAssemblyInfo.cs
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.MvcApplicationPartsAssemblyInfo.cache
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/staticwebassets/msbuild.ZeroWasteStore.Microsoft.AspNetCore.StaticWebAssets.props
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/staticwebassets/msbuild.build.ZeroWasteStore.props
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.ZeroWasteStore.props
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.ZeroWasteStore.props
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/staticwebassets.pack.json
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/staticwebassets.build.json
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/staticwebassets.development.json
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/scopedcss/bundle/ZeroWasteStore.styles.css
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.csproj.CopyComplete
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/refint/ZeroWasteStore.dll
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.pdb
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.genruntimeconfig.cache
-/Users/pacenzur/git_demo/changes/ZeroWasteStore/obj/Debug/net6.0/ref/ZeroWasteStore.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\appsettings.json
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\ZeroWasteStore.exe
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\ZeroWasteStore.deps.json
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\ZeroWasteStore.runtimeconfig.json
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\ZeroWasteStore.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\ZeroWasteStore.pdb
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Humanizer.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\System.Runtime.Caching.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\ZeroWasteStore.csproj.AssemblyReference.cache
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\ZeroWasteStore.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\ZeroWasteStore.AssemblyInfoInputs.cache
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\ZeroWasteStore.AssemblyInfo.cs
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\ZeroWasteStore.csproj.CoreCompileInputs.cache
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\ZeroWasteStore.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\ZeroWasteStore.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\staticwebassets\msbuild.ZeroWasteStore.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\staticwebassets\msbuild.build.ZeroWasteStore.props
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ZeroWasteStore.props
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ZeroWasteStore.props
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\scopedcss\bundle\ZeroWasteStore.styles.css
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\ZeroWasteStore.csproj.CopyComplete
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\ZeroWasteStore.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\refint\ZeroWasteStore.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\ZeroWasteStore.pdb
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\ZeroWasteStore.genruntimeconfig.cache
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\obj\Debug\net6.0\ref\ZeroWasteStore.dll
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\client\package-lock.json
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\client\package.json
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\client\public\manifest.json
-C:\Users\andig\ZeroWasteStore\ZeroWasteStore\bin\Debug\net6.0\client\tsconfig.json
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.csproj.AssemblyReference.cache
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.AssemblyInfoInputs.cache
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.AssemblyInfo.cs
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.csproj.CoreCompileInputs.cache
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.MvcApplicationPartsAssemblyInfo.cs
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.MvcApplicationPartsAssemblyInfo.cache
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/appsettings.Development.json
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/appsettings.json
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/client/package-lock.json
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/client/package.json
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/client/public/manifest.json
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/client/tsconfig.json
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/ZeroWasteStore
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/ZeroWasteStore.deps.json
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/ZeroWasteStore.runtimeconfig.json
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/ZeroWasteStore.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/ZeroWasteStore.pdb
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/AutoMapper.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Azure.Core.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Azure.Identity.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Humanizer.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Mono.TextTemplating.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/System.CodeDom.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/System.Text.Json.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/staticwebassets/msbuild.ZeroWasteStore.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/staticwebassets/msbuild.build.ZeroWasteStore.props
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.ZeroWasteStore.props
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.ZeroWasteStore.props
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/staticwebassets.build.json
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/staticwebassets.development.json
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/scopedcss/bundle/ZeroWasteStore.styles.css
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.csproj.CopyComplete
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/refint/ZeroWasteStore.dll
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.pdb
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/ZeroWasteStore.genruntimeconfig.cache
+/Users/pacenzur/Downloads/ZeroWasteStore/obj/Debug/net6.0/ref/ZeroWasteStore.dll

@@ -5,12 +5,12 @@ using Microsoft.EntityFrameworkCore;
 using MyStore.Data;
 using MyStore.DTOs.Category;
 using MyStore.Entities;
-using ZeroWasteStore.Controllers;
 
-namespace MyStore.Controllers
+namespace ZeroWasteStore.Controllers
 {
-        [ApiController]
-        [Route("/api/[controller]")]
+    [ApiController]
+    [Route("api/[controller]")]
+    
         public class CategoriesController : ControllerBase
         {
 
@@ -37,8 +37,6 @@ namespace MyStore.Controllers
 
             [HttpPost]
             public async Task<ActionResult<Category>> CreateCategory(CreateCategoryDto categoryDto)
-            
-            
             {
                 var category = mapper.Map<Category>(categoryDto);
                 context.Categories.Add(category);

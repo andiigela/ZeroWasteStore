@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "ZeroWasteStore": {
+    "MyStore": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

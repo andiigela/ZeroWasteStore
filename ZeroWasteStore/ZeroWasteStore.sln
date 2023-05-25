@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1705.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroWasteStore", "ZeroWasteStore.csproj", "{EFF8C36E-6052-4875-822B-7EE07FACF882}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroWasteStore", "ZeroWasteStore.csproj", "{3FC0AE7B-B19C-49D4-8263-35E2163ADCE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EFF8C36E-6052-4875-822B-7EE07FACF882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFF8C36E-6052-4875-822B-7EE07FACF882}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFF8C36E-6052-4875-822B-7EE07FACF882}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFF8C36E-6052-4875-822B-7EE07FACF882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC0AE7B-B19C-49D4-8263-35E2163ADCE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC0AE7B-B19C-49D4-8263-35E2163ADCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC0AE7B-B19C-49D4-8263-35E2163ADCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC0AE7B-B19C-49D4-8263-35E2163ADCE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8D987201-49BD-407A-9E46-921195C9EDBD}
+		SolutionGuid = {D2AFA1DF-21FB-45F4-9A1B-E7A3FCCC54DF}
 	EndGlobalSection
 EndGlobal

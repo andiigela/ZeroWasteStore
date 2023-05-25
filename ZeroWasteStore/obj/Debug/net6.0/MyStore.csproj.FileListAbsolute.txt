@@ -1,0 +1,182 @@
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/appsettings.Development.json
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/appsettings.json
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/MyStore
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/MyStore.deps.json
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/MyStore.runtimeconfig.json
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/MyStore.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/MyStore.pdb
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/AutoMapper.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Azure.Core.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Azure.Identity.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Humanizer.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Mono.TextTemplating.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/System.CodeDom.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/System.Text.Json.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/MyStore.csproj.AssemblyReference.cache
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/MyStore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/MyStore.AssemblyInfoInputs.cache
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/MyStore.AssemblyInfo.cs
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/MyStore.csproj.CoreCompileInputs.cache
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/MyStore.MvcApplicationPartsAssemblyInfo.cs
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/MyStore.MvcApplicationPartsAssemblyInfo.cache
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/staticwebassets/msbuild.MyStore.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/staticwebassets/msbuild.build.MyStore.props
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.MyStore.props
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.MyStore.props
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/staticwebassets.build.json
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/staticwebassets.development.json
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/scopedcss/bundle/MyStore.styles.css
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/MyStore.csproj.CopyComplete
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/MyStore.dll
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/refint/MyStore.dll
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/MyStore.pdb
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/MyStore.genruntimeconfig.cache
+/Users/pacenzur/Downloads/MyStore/obj/Debug/net6.0/ref/MyStore.dll
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/MyStore.csproj.AssemblyReference.cache
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/MyStore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/MyStore.AssemblyInfoInputs.cache
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/MyStore.AssemblyInfo.cs
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/MyStore.csproj.CoreCompileInputs.cache
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/MyStore.MvcApplicationPartsAssemblyInfo.cs
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/MyStore.MvcApplicationPartsAssemblyInfo.cache
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/MyStore.dll
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/refint/MyStore.dll
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/MyStore.pdb
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/appsettings.Development.json
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/appsettings.json
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/MyStore
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/MyStore.deps.json
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/MyStore.runtimeconfig.json
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/MyStore.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/MyStore.pdb
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/AutoMapper.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Azure.Core.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Azure.Identity.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Humanizer.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Mono.TextTemplating.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/System.CodeDom.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/System.Text.Json.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/Users/pacenzur/Downloads/MyStore 2/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/staticwebassets/msbuild.MyStore.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/staticwebassets/msbuild.build.MyStore.props
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.MyStore.props
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.MyStore.props
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/staticwebassets.build.json
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/staticwebassets.development.json
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/scopedcss/bundle/MyStore.styles.css
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/MyStore.csproj.CopyComplete
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/MyStore.genruntimeconfig.cache
+/Users/pacenzur/Downloads/MyStore 2/obj/Debug/net6.0/ref/MyStore.dll
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/client/package-lock.json
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/client/package.json
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/client/public/manifest.json
+/Users/pacenzur/Downloads/MyStore/bin/Debug/net6.0/client/tsconfig.json
