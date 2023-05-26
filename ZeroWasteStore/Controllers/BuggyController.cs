@@ -20,7 +20,7 @@ namespace ZeroWasteStore.Controllers
             return Unauthorized();
         }
         [HttpGet("validation-error")]
-        public ActionResult getValidationError() // prej modelit
+        public ActionResult GetValidationError() // prej modelit
         {
             ModelState.AddModelError("Problem1","This is the first error");
             ModelState.AddModelError("Problem2","This is the second error");
