@@ -5,7 +5,6 @@ using Microsoft.EntityFrameworkCore;
 using ZeroWasteStore.Data;
 using ZeroWasteStore.DTOs;
 using ZeroWasteStore.Entities;
-using ZeroWasteStore.Data;
 using ZeroWasteStore.Controllers;
 
 namespace MyStore.Controllers

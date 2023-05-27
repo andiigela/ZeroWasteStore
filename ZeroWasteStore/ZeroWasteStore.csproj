@@ -22,4 +22,8 @@
     <Compile Remove="Migrations\20230503100719_addProductToDb.Designer.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

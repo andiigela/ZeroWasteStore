@@ -9,11 +9,11 @@ using ZeroWasteStore.Data;
 
 #nullable disable
 
-namespace ZeroWasteStore.Data.Migrations
+namespace ZeroWasteStore.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20230505154319_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20230527102420_AddingMyEntities")]
+    partial class AddingMyEntities
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,49 @@ namespace ZeroWasteStore.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("ZeroWasteStore.Entities.Basket", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("BuyerId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Baskets");
+                });
+
+            modelBuilder.Entity("ZeroWasteStore.Entities.BasketItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BasketId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BasketId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("BasketItems");
+                });
 
             modelBuilder.Entity("ZeroWasteStore.Entities.Category", b =>
                 {
@@ -116,11 +159,35 @@ namespace ZeroWasteStore.Data.Migrations
                     b.ToTable("Shippings");
                 });
 
+            modelBuilder.Entity("ZeroWasteStore.Entities.BasketItem", b =>
+                {
+                    b.HasOne("ZeroWasteStore.Entities.Basket", "Basket")
+                        .WithMany("Items")
+                        .HasForeignKey("BasketId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ZeroWasteStore.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Basket");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("ZeroWasteStore.Entities.Product", b =>
                 {
                     b.HasOne("ZeroWasteStore.Entities.Category", null)
                         .WithMany("ListOfProducts")
                         .HasForeignKey("CategoryId");
+                });
+
+            modelBuilder.Entity("ZeroWasteStore.Entities.Basket", b =>
+                {
+                    b.Navigation("Items");
                 });
 
             modelBuilder.Entity("ZeroWasteStore.Entities.Category", b =>
