@@ -14,6 +14,7 @@ import BasketPage from "../../features/basket/BasketPage";
 import {useStoreContext} from "../context/StoreContext";
 import {getCookie} from "../util/util";
 import agent from "../api/agent";
+import CheckoutPage from "../../features/checkout/CheckoutPage";
 
 
 function App() {
@@ -66,6 +67,8 @@ function App() {
                     <Route path='/about' Component={AboutPage} />
                     <Route path='/contact' Component={ContactPage} />
                     <Route path='/basket' Component={BasketPage}></Route>
+                    <Route path='/checkout' Component={CheckoutPage}></Route>
+                    
 
                 </Routes>
             </Container>
