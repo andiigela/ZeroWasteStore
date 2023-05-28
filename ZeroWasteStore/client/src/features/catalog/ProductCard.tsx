@@ -15,9 +15,9 @@ import { Link } from "react-router-dom";
 import { Product } from "../../app/models/Product";
 import {useState} from "react";
 import agent from "../../app/api/agent";
-import {LoadingButton} from "@mui/lab";
 import {useStoreContext} from "../../app/context/StoreContext";
 import {currencyFormat} from "../../app/util/util";
+import { LoadingButton } from "@mui/lab";
 
 
 interface Props {
@@ -63,7 +63,7 @@ export default function ProductCard(props: Props) {
                 </Typography>
             </CardContent>
             <CardActions sx={{ height: 40, position: 'relative', bottom: 15, left: 5 }}>
-                <LoadingButton loading={loading} onClick={()=> handleAddItem(props.product.id)} size="small" sx={{ backgroundColor: props.color, fontSize: '11px', padding: '10px', color: 'white', fontWeight: 'bold', ":hover": { backgroundColor: 'rgb(102, 161, 255)' } }}>Add to Cart</LoadingButton>
+                <LoadingButton loading={loading} onClick={() => handleAddItem(props.product.id)} size="small" sx={{ backgroundColor: props.color, fontSize: '11px', padding: '10px', color: 'white', fontWeight: 'bold', ":hover": { backgroundColor: 'rgb(102, 161, 255)' } }}>Add to Cart</LoadingButton>
                 <Button component={Link} to={`/catalog/${props.product.id}`} size="small" sx={{ color: 'rgb(69, 139, 255)', ":hover": { backgroundColor: 'rgb(245, 245, 245)' } }}>View</Button>
             </CardActions>
         </Card>

@@ -15,7 +15,7 @@ import { useParams } from "react-router-dom";
 import agent from "../../app/api/agent";
 import { Product } from "../../app/models/Product";
 import {useStoreContext} from "../../app/context/StoreContext";
-import {LoadingButton} from "@mui/lab";
+import { LoadingButton } from "@mui/lab";
 
 export default function ProductDetails() {
     const{basket,setBasket,removeItem}=useStoreContext();

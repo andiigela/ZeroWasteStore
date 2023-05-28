@@ -16,7 +16,7 @@ import {
 import {Add, Delete, Remove} from "@mui/icons-material";
 import {useStoreContext} from "../../app/context/StoreContext";
 import agent from "../../app/api/agent";
-import {LoadingButton} from "@mui/lab";
+import { LoadingButton } from "@mui/lab";
 import BasketSummary from "./BasketSummary";
 import {Link} from "react-router-dom";
 export default function BasketPage(){
@@ -52,7 +52,7 @@ export default function BasketPage(){
                         </TableRow>
                     </TableHead>
                     <TableBody>
-                        {basket.items.map(item => (
+                        {basket?.items?.map(item => (
                             <TableRow
                                 key={item.productId}
                                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}

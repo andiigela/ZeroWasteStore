@@ -22,7 +22,7 @@ const rightLinks = [
 
 export default function Header(props: Props) {
     const{basket}=useStoreContext();
-    const itemCount = basket?.items.reduce((sum,item)=>sum+item.quantity,0)
+    const itemCount = basket?.items?.reduce((sum, item) => sum + item.quantity, 0);
     return (
         <AppBar position="static" sx={{ mb: 4 }}>
 
