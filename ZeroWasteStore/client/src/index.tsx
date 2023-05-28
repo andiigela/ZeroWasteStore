@@ -13,7 +13,7 @@ root.render(
     <React.StrictMode>
         <BrowserRouter>
             <StoreProvider>
-            <App />
+                <App />
             </StoreProvider>
         </BrowserRouter>
     </React.StrictMode>
