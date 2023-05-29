@@ -20,16 +20,12 @@ import {setBasket} from "../../features/basket/basketSlice";
 
 
 function App() {
-<<<<<<< HEAD
     const { setBasket } = useStoreContext();
-=======
     const dispatch=useAppDispatch()
->>>>>>> bbfd7ffc7d19fbc379c0c00f2e0dd80a92083fd4
     const[loading,setLoading]=useState(true);
     
-    useEffect(()=>{
+    useEffect(() => {
         const buyerId = getCookie('buyerId');
-<<<<<<< HEAD
         if (buyerId) {
             agent.Basket.get()
                 .then(basket => setBasket(basket))
@@ -37,14 +33,12 @@ function App() {
                 .finally(() => setLoading(false));
         } else {
             setLoading(false);
-=======
-        if(buyerId){
-            agent.Basket.get().then(basket=>dispatch(setBasket(basket))).catch(error=>console.log(error)).finally(()=>setLoading(false));
-        }else{
-            setLoading(false)
->>>>>>> bbfd7ffc7d19fbc379c0c00f2e0dd80a92083fd4
-        }
-    },[setBasket])
+            if (buyerId) {
+                agent.Basket.get().then(basket => dispatch(setBasket(basket))).catch(error => console.log(error)).finally(() => setLoading(false));
+            } else {
+                setLoading(false)
+            }
+        }, [setBasket]);
     
     const [darkMode, setDarkMode] = useState(false);
     const backgroundColor = darkMode ? 'rgb(255, 77, 106)' : 'rgb(240, 240, 240)';

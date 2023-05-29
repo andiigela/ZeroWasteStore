@@ -19,14 +19,12 @@ root.render(
     <React.StrictMode>
         <BrowserRouter>
             <StoreProvider>
-<<<<<<< HEAD
+
                 <App />
-=======
                 <Provider store={store}>
                     <App />
                 </Provider>
               
->>>>>>> bbfd7ffc7d19fbc379c0c00f2e0dd80a92083fd4
             </StoreProvider>
         </BrowserRouter>
     </React.StrictMode>

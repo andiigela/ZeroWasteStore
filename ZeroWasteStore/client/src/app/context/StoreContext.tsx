@@ -47,11 +47,8 @@ export function StoreProvider({children}:PropsWithChildren<any>){
     }
     
     return(
-<<<<<<< HEAD
         <StoreContext.Provider value={{ basket, setBasket, removeItem, addItem }}>
-=======
         <StoreContext.Provider value={{basket,setBasket,removeItem,addItem }}>
->>>>>>> bbfd7ffc7d19fbc379c0c00f2e0dd80a92083fd4
             {children}
         </StoreContext.Provider>
     )
