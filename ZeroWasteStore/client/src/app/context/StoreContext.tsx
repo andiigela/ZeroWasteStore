@@ -3,7 +3,7 @@ import {createContext, PropsWithChildren, useContext, useState} from "react";
 
 interface StoreContextValue{
     basket : Basket | null;
-    setBasket : (basket: Basket)=> void;
+    setBasket : (basket: Basket) => void;
     removeItem :(productId:number,quantity:number)=>void;
     addItem: (productId: number, quantity: number) => void;
 
@@ -17,7 +17,6 @@ export function useStoreContext(){
     if(context===undefined){
         throw Error("Oops - we do not seem to be inside the provider");
     }
-    
     return context;
 }
 
@@ -31,7 +30,9 @@ export function StoreProvider({children}:PropsWithChildren<any>){
         if(itemIndex >=0){
             items[itemIndex].quantity-=quantity;
             if(items[itemIndex].quantity===0) items.splice(itemIndex,1);
-            setBasket(prevState => {return{...prevState!,items}})
+            setBasket(prevState => {
+                return { ...prevState!, items }
+            })
         }
         
     }
