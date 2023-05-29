@@ -35,20 +35,20 @@ export default function ProductCard(props: Props) {
             .catch(error => console.log(error))
             .finally(()=>setLoading(false));
     };
-
-
+    
+    
     return (
         <Card>
             <CardHeader sx={{ height: 50 }}
-                        avatar={
-                            <Avatar sx={{width: 30,height: 30}}>{props.product.name.charAt(0).toUpperCase()}</Avatar>
+                avatar={
+                    <Avatar sx={{width: 30,height: 30}}>{props.product.name.charAt(0).toUpperCase()}</Avatar>
 
-                        }
-                        title={props.product.name}
-                        titleTypographyProps={{
-                            style: {
-                                fontSize: '14px', fontWeight: 'bold', color:props.color}
-                        }}
+                }
+                title={props.product.name}
+                titleTypographyProps={{
+                    style: {
+                        fontSize: '14px', fontWeight: 'bold', color:props.color}
+                }}
             />
             <CardMedia
                 component="img"

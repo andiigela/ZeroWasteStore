@@ -14,46 +14,56 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import agent from "../../app/api/agent";
 import { Product } from "../../app/models/Product";
-import {useStoreContext} from "../../app/context/StoreContext";
+import { useStoreContext } from "../../app/context/StoreContext";
 import { LoadingButton } from "@mui/lab";
+import { BasketItem } from "../../app/models/basket";
 
 export default function ProductDetails() {
-    const{basket,setBasket,removeItem,addItem}=useStoreContext();
-    const { id } = useParams<{ id: string | string}>();
+    const { basket, setBasket, removeItem, addItem, addBasketItem } = useStoreContext();
+    const { id } = useParams<{ id: string | string }>();
     const [product, setProduct] = useState<Product | null>(null);
     const [loading, setLoading] = useState(true);
-    const[quantity,setQuantity]=useState(0);
-    const[submitting,setSubmitting]=useState(false);
-    const item=basket?.items?.find(i=>i.productId===product?.id);
-    
+    const [quantity, setQuantity] = useState(0);
+    const [submitting, setSubmitting] = useState(false);
+    const item = basket?.items?.find(i => i.productId === product?.id);
+
+    var myId = item?.productId as number;
+
 
     useEffect(() => {
-        if(item)setQuantity(item.quantity);
+        if (item) setQuantity(item.quantity);
         axios.get(`http://localhost:5280/api/Products/${id}`) //  agent.Catalog.details(parseInt(id)) 
             .then(response => setProduct(response.data))
             .catch(error => console.log(error))
             .finally(() => setLoading(false));
-    }, [id,item]);
-    
-    function handleInputChange(event:any){
-        if(event.target.value>=0) {
+    }, [id, item]);
+
+    function handleInputChange(event: any) {
+        if (event.target.value >= 0) {
             setQuantity(parseInt(event.target.value));
         }
     }
-    function handleUpdateCart(){
+    function handleAddItem2(productId: number, quantity: number) {
+        setLoading(true);
+        agent.Basket.addItem(productId)
+            .then(() => addItem(productId, 1))
+            .catch(error => console.log(error))
+            .finally(() => setLoading(false));
+    }
+    function handleUpdateCart() {
         setSubmitting(true);
-        if (!item || quantity>item.quantity){
-            const updatedQuantity=item?quantity-item.quantity:quantity;
-            agent.Basket.addItem(product?.id!,updatedQuantity)
-                .then(basket=>setBasket(basket))
-                .catch(error=> console.log(error))
-                .finally(()=>setSubmitting(false))
+        if (!item || quantity > item.quantity) {
+            const updatedQuantity = item ? quantity - item.quantity : quantity;
+            agent.Basket.addItem(product?.id!, updatedQuantity)
+                .then(basket => setBasket(basket))
+                .catch(error => console.log(error))
+                .finally(() => setSubmitting(false))
         } else {
-            const updatedQuantity = item.quantity-quantity;
-            agent.Basket.removeItem(product?.id!,updatedQuantity)
-                .then(()=>removeItem(product?.id!,updatedQuantity))
-                .catch(error=>console.log(error))
-                .finally(()=>setSubmitting(false))
+            const updatedQuantity = item.quantity - quantity;
+            agent.Basket.removeItem(product?.id!, updatedQuantity)
+                .then(() => removeItem(product?.id!, updatedQuantity))
+                .catch(error => console.log(error))
+                .finally(() => setSubmitting(false))
         }
     }
 
@@ -98,27 +108,27 @@ export default function ProductDetails() {
                 </TableContainer>
                 <Grid container spacing={2}>
                     <Grid item xs={6}>
-                        <TextField 
+                        <TextField
                             onChange={handleInputChange}
-                        variant='outlined'
-                        type='number'
-                        label='Quantity in Cart'
-                        fullWidth
-                        value={quantity}
+                            variant='outlined'
+                            type='number'
+                            label='Quantity in Cart'
+                            fullWidth
+                            value={quantity}
                         />
                     </Grid>
                     <Grid item xs={6}>
-                        <LoadingButton 
-                            disabled={item?.quantity===quantity || !item && quantity===0}
+                        <LoadingButton
+                            disabled={item?.quantity === quantity || !item && quantity === 0}
                             loading={submitting}
-                            onClick={handleUpdateCart}
-                            sx={{height:'55px'}}
-                                color='primary'    
-                                size='large'
-                                variant='contained'
-                                fullWidth
+                            onClick={item ? handleUpdateCart : () => handleAddItem2(myId,quantity)}
+                            sx={{ height: '55px' }}
+                            color='primary'
+                            size='large'
+                            variant='contained'
+                            fullWidth
                         >
-                            {item?'Update Quantity':'Add to cart'}
+                            {item ? 'Update Quantity' : 'Add to cart'}
                         </LoadingButton>
                     </Grid>
                 </Grid>
