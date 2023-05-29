@@ -69,11 +69,6 @@ const Basket = {
     get: ()=> requests.get('Basket'),
     addItem:(productId:number,quantity = 1)=>requests.post(`Basket?productId=${productId}&quantity=${quantity}`, {}),
     removeItem:(productId:number,quantity = 1)=>requests.delete(`Basket?productId=${productId}&quantity=${quantity}`),
-<<<<<<< HEAD
-=======
-    
-    
->>>>>>> d5f491c6a138ea3d6e73a45e2e679a1fdbf6d7ae
 }
 const agent = {
     Catalog,

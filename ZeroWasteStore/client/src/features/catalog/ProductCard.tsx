@@ -25,31 +25,18 @@ interface Props {
     color: string
 }
 export default function ProductCard(props: Props) {
-<<<<<<< HEAD
     const [loading, setLoading] = useState(false);
     const { setBasket, addItem } = useStoreContext();
-=======
-    const[ loading,setLoading]=useState(false);
-    const { setBasket } = useStoreContext();
->>>>>>> d5f491c6a138ea3d6e73a45e2e679a1fdbf6d7ae
 
     function handleAddItem(productId:number){
         setLoading(true);
         agent.Basket.addItem(productId)
-<<<<<<< HEAD
             .then(() => addItem(productId, 1))
             .catch(error => console.log(error))
             .finally(()=>setLoading(false));
     };
 
 
-=======
-            .then(basket => setBasket(basket))
-            .catch(error => console.log(error))
-            .finally(()=>setLoading(false));
-    };
-    
->>>>>>> d5f491c6a138ea3d6e73a45e2e679a1fdbf6d7ae
     return (
         <Card>
             <CardHeader sx={{ height: 50 }}
