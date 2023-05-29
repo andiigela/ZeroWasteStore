@@ -6,7 +6,6 @@ interface StoreContextValue{
     setBasket : (basket: Basket) => void;
     removeItem: (productId: number, quantity: number) => void;
     addItem: (productId: number, quantity: number) => void;
-    addBasketItem: (basketItem: BasketItem, quantity: number) => void;
     
 }
 export const StoreContext=createContext<StoreContextValue | undefined>(undefined);
@@ -46,20 +45,9 @@ export function StoreProvider({children}:PropsWithChildren<any>){
             })
         }
     }
-    function addBasketItem(basketItem: BasketItem | BasketItem, quantity: number) {
-        if (!basket) return;
-        const items = [...basket.items];
-        const itemIndex = items.findIndex(i => i.productId === basketItem.productId);
-        if (itemIndex >= 0) {
-            items[itemIndex].quantity += quantity;
-            if (items[itemIndex].quantity === 0) items.splice(itemIndex, 1);
-            setBasket(prevState => {
-                return { ...prevState!, items }
-            })
-        }
-    }
+    
     return(
-        <StoreContext.Provider value={{ basket, setBasket, removeItem, addItem, addBasketItem }}>
+        <StoreContext.Provider value={{ basket, setBasket, removeItem, addItem }}>
             {children}
         </StoreContext.Provider>
     )

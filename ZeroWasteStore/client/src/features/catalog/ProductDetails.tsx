@@ -19,15 +19,13 @@ import { LoadingButton } from "@mui/lab";
 import { BasketItem } from "../../app/models/basket";
 
 export default function ProductDetails() {
-    const { basket, setBasket, removeItem, addItem, addBasketItem } = useStoreContext();
+    const { basket, setBasket, removeItem, addItem } = useStoreContext();
     const { id } = useParams<{ id: string | string }>();
     const [product, setProduct] = useState<Product | null>(null);
     const [loading, setLoading] = useState(true);
     const [quantity, setQuantity] = useState(0);
     const [submitting, setSubmitting] = useState(false);
     const item = basket?.items?.find(i => i.productId === product?.id);
-
-    var myId = item?.productId as number;
 
 
     useEffect(() => {
@@ -121,7 +119,7 @@ export default function ProductDetails() {
                         <LoadingButton
                             disabled={item?.quantity === quantity || !item && quantity === 0}
                             loading={submitting}
-                            onClick={item ? handleUpdateCart : () => handleAddItem2(myId,quantity)}
+                            onClick={handleUpdateCart}
                             sx={{ height: '55px' }}
                             color='primary'
                             size='large'
