@@ -26,7 +26,7 @@ namespace ZeroWasteStore.Controllers
             var basket = await RetrieveBasket();
             if (basket == null) basket = CreateBasket();
             var product = await _storeContext.Products.FindAsync(productId);
-            if (product == null) return NotFound();
+            if (product == null) return BadRequest(new ProblemDetails { Title = "Product not found" });
             basket.AddItem(product, quantity);
             var result = await _storeContext.SaveChangesAsync() > 0;
             if (result) return CreatedAtRoute("GetBasket", MapBasketToDto(basket));
