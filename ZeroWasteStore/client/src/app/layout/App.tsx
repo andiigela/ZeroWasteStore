@@ -11,7 +11,6 @@ import Header from "./Header";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import BasketPage from "../../features/basket/BasketPage";
-import {useStoreContext} from "../context/StoreContext";
 import {getCookie} from "../util/util";
 import agent from "../api/agent";
 import CheckoutPage from "../../features/checkout/CheckoutPage";

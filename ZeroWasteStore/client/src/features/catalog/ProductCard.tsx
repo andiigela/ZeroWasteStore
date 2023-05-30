@@ -25,16 +25,7 @@ interface Props {
     color: string
 }
 export default function ProductCard(props: Props) {
-    const [loading, setLoading] = useState(false);
-    const { setBasket, addItem } = useStoreContext();
 
-    function handleAddItem(productId:number){
-        setLoading(true);
-        agent.Basket.addItem(productId)
-            .then(() => addItem(productId, 1))
-            .catch(error => console.log(error))
-            .finally(()=>setLoading(false));
-    };
     
     
     return (
