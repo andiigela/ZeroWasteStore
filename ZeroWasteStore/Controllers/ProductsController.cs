@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using System.Text.Json;
+using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -6,6 +7,8 @@ using ZeroWasteStore.Controllers;
 using ZeroWasteStore.Data;
 using ZeroWasteStore.DTOs;
 using ZeroWasteStore.Entities;
+using ZeroWasteStore.Extensions;
+using ZeroWasteStore.RequestHelpers;
 
 namespace MyStore.Controllers
 {
@@ -22,10 +25,21 @@ namespace MyStore.Controllers
             this.mapper = mapper;
         }
 
-        [HttpGet("")]
-        public async Task<ActionResult<List<Product>>> GetProducts()
+        [HttpGet]
+        public async Task<ActionResult<PagedList<Product>>> GetProducts([FromQuery]ProductParams productParams)
         {
-            return await context.Products.ToListAsync();
+            var query = context.Products
+                .Sort(productParams.OrderBy)
+                .Search(productParams.SearchTerm)
+                .Filter(productParams.Brands,productParams.Types)
+                .AsQueryable();
+
+            var products =
+                await PagedList<Product>.ToPagedList(query, productParams.PageNumber, productParams.PageSize);
+            
+            Response.AddPaginationHeader (products.MetaData) ;
+            
+            return products;
         }
 
         [HttpGet("{id}",Name = "GetProduct")]
@@ -67,6 +81,15 @@ namespace MyStore.Controllers
             var result = await context.SaveChangesAsync() > 0;
             if (result) return Ok();
             return BadRequest(new ProblemDetails { Title = "Problem deleting product" });
+        }
+
+        [HttpGet("filters")]
+        public async Task<IActionResult> GetFilters()
+        {
+            var brands = await context.Products.Select(p => p.Brand).Distinct().ToListAsync();
+            var types = await context.Products.Select(p => p.Type).Distinct().ToListAsync();
+
+            return Ok(new { brands, types });
         }
 
 

@@ -13,7 +13,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import agent from "../../app/api/agent";
-import { Product } from "../../app/models/Product";
+import { Product } from "../../app/models/product";
 import { LoadingButton } from "@mui/lab";
 import { BasketItem } from "../../app/models/basket";
 import { useAppDispatch, useAppSelector } from "../../app/store/configureStore";
@@ -86,7 +86,7 @@ export default function ProductDetails() {
                             </TableRow>
                             <TableRow>
                                 <TableCell>Quantity in Stock</TableCell>
-                                <TableCell>{product.quantityStock}</TableCell>
+                                <TableCell>{product.quantityInStock}</TableCell>
                             </TableRow>
                         </TableBody>
                     </Table>

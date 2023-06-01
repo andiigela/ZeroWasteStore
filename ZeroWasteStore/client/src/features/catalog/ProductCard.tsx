@@ -12,7 +12,7 @@
     CardHeader,
 } from "@mui/material";
 import { Link } from "react-router-dom";
-import { Product } from "../../app/models/Product";
+import { Product } from "../../app/models/product";
 import {useState} from "react";
 import agent from "../../app/api/agent";
 import {useStoreContext} from "../../app/context/StoreContext";
