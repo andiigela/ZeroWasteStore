@@ -1,4 +1,4 @@
-namespace ZeroWasteStore.RequestHelpers
+namespace API.RequestHelpers
 {
     public class MetaData
     {
@@ -8,4 +8,3 @@ namespace ZeroWasteStore.RequestHelpers
         public int TotalCount { get; set; }
     }
 }
-

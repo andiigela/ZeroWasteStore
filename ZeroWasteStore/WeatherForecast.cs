@@ -1,4 +1,4 @@
-namespace ZeroWasteStore
+namespace MyStoreZ
 {
     public class WeatherForecast
     {

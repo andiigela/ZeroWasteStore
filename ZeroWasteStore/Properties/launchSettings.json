@@ -4,16 +4,16 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:39838",
-      "sslPort": 0
+      "applicationUrl": "http://localhost:51735",
+      "sslPort": 44397
     }
   },
   "profiles": {
-    "MyStore": {
+    "MyStoreZ": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "http://localhost:5280",
+      "applicationUrl": "http://localhost:5238",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

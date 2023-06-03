@@ -1,0 +1,164 @@
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.csproj.AssemblyReference.cache
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.AssemblyInfoInputs.cache
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.AssemblyInfo.cs
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.csproj.CoreCompileInputs.cache
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/appsettings.json
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/MyStoreZ.exe
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/MyStoreZ.deps.json
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/MyStoreZ.runtimeconfig.json
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/MyStoreZ.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/MyStoreZ.pdb
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/AutoMapper.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/CloudinaryDotNet.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Humanizer.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.OpenApi.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Newtonsoft.Json.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Stripe.net.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/System.Drawing.Common.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/System.Runtime.Caching.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/System.Security.Permissions.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/System.Windows.Extensions.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/staticwebassets/msbuild.MyStoreZ.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/staticwebassets/msbuild.build.MyStoreZ.props
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.MyStoreZ.props
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.MyStoreZ.props
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/staticwebassets.pack.json
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/scopedcss/bundle/MyStoreZ.styles.css
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.csproj.CopyComplete
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/refint/MyStoreZ.dll
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.pdb
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.genruntimeconfig.cache
+C:/Users/andig/Desktop/.NET Folders/MyStoreZ/MyStoreZ/obj/Debug/net6.0/ref/MyStoreZ.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/appsettings.Development.json
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/appsettings.json
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/client/package-lock.json
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/client/package.json
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/client/public/manifest.json
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/client/tsconfig.json
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/MyStoreZ
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/MyStoreZ.deps.json
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/MyStoreZ.runtimeconfig.json
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/MyStoreZ.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/MyStoreZ.pdb
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/AutoMapper.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/CloudinaryDotNet.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Humanizer.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Stripe.net.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.csproj.AssemblyReference.cache
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.AssemblyInfoInputs.cache
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.AssemblyInfo.cs
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.csproj.CoreCompileInputs.cache
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.MvcApplicationPartsAssemblyInfo.cs
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.MvcApplicationPartsAssemblyInfo.cache
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/staticwebassets/msbuild.MyStoreZ.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/staticwebassets/msbuild.build.MyStoreZ.props
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.MyStoreZ.props
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.MyStoreZ.props
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/staticwebassets.build.json
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/staticwebassets.development.json
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/scopedcss/bundle/MyStoreZ.styles.css
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.csproj.CopyComplete
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/refint/MyStoreZ.dll
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.pdb
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/MyStoreZ.genruntimeconfig.cache
+/Users/pacenzur/Downloads/MyStoreZ/MyStoreZ/obj/Debug/net6.0/ref/MyStoreZ.dll

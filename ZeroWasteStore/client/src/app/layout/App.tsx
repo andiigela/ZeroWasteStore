@@ -1,91 +1,89 @@
-import { ThemeProvider } from "@emotion/react";
-import { Container, createTheme, CssBaseline } from "@mui/material";
-import {useEffect, useState} from "react";
-import { Route, Routes } from "react-router-dom";
+import { Container, createTheme, CssBaseline, ThemeProvider } from "@mui/material";
+import { useCallback, useEffect, useState } from "react";
+import { Route, Switch } from "react-router";
+import { ToastContainer } from "react-toastify";
 import AboutPage from "../../features/about/AboutPage";
-import ContactPage from "../../features/contact/ContactPage";
-import HomePage from "../../features/home/HomePage";
 import Catalog from "../../features/catalog/Catalog";
 import ProductDetails from "../../features/catalog/ProductDetails";
+import ContactPage from "../../features/contact/ContactPage";
+import HomePage from "../../features/home/HomePage";
 import Header from "./Header";
-import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import ServerError from "../errors/ServerError";
+import NotFound from "../errors/NotFound";
 import BasketPage from "../../features/basket/BasketPage";
-import {getCookie} from "../util/util";
-import agent from "../api/agent";
-import CheckoutPage from "../../features/checkout/CheckoutPage";
-import {useAppDispatch} from "../store/configureStore";
-import {setBasket} from "../../features/basket/basketSlice";
-
+import LoadingComponent from "./LoadingComponent";
+import { useAppDispatch } from "../store/configureStore";
+import { fetchBasketAsync } from "../../features/basket/basketSlice";
+import Login from "../../features/account/Login";
+import Register from "../../features/account/Register";
+import { fetchCurrentUser } from "../../features/account/accountSlice";
+import PrivateRoute from "./PrivateRoute";
+import Orders from "../../features/orders/Orders";
+import CheckoutWrapper from "../../features/checkout/CheckoutWrapper";
+import Inventory from "../../features/admin/Inventory";
 
 function App() {
-    const dispatch = useAppDispatch()
-    const[loading,setLoading]=useState(true);
+  const dispatch = useAppDispatch();
+  const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        const buyerId = getCookie('buyerId');
-        if (buyerId) {
-            agent.Basket.get()
-                .then(basket => dispatch(setBasket(basket)))
-                .catch(error => console.log(error))
-                .finally(() => setLoading(false));
-        } else {
-            setLoading(false);
-            if (buyerId) {
-                agent.Basket.get().then(basket => dispatch(()=>setBasket(basket))).catch(error => console.log(error)).finally(() => setLoading(false));
-            } else {
-                setLoading(false)
-            }
-        }
-    }, [dispatch]);
-
-    const [darkMode, setDarkMode] = useState(false);
-    const backgroundColor = darkMode ? 'rgb(255, 77, 106)' : 'rgb(240, 240, 240)';
-    const navbarColor = darkMode ? 'rgb(255, 77, 106)' : 'rgb(70, 123, 250)';
-    const theme = createTheme({
-        palette: {
-            background: {
-                default: backgroundColor
-            },
-            primary: {
-                main: navbarColor
-            },
-
-        }
-    })
-    function changeTheme() {
-        setDarkMode(!darkMode);
+  const initApp = useCallback(async () => {
+    try {
+      await dispatch(fetchCurrentUser());
+      await dispatch(fetchBasketAsync());
+    } catch (error) {
+      console.log(error);
     }
-    if(loading) return <h1>Initialising app ...</h1>
+  }, [dispatch])
 
-    return (
-        <ThemeProvider theme={theme}>
+  useEffect(() => {
+    initApp().then(() => setLoading(false));
+  }, [initApp])
 
-            <ToastContainer position="bottom-right" hideProgressBar />
-            <CssBaseline />
-            <Header changeTheme={changeTheme} />
-            <Container>
-                <Routes>
-                    <Route path='/' Component={HomePage} />
-                    <Route path='/catalog' Component={() => (
-                        <Catalog
-                            color={navbarColor}
-                        />
-                    )} />
-                    <Route path='/catalog/:id' Component={ProductDetails} />
-                    <Route path='/about' Component={AboutPage} />
-                    <Route path='/contact' Component={ContactPage} />
-                    <Route path='/basket' Component={BasketPage}></Route>
-                    <Route path='/checkout' Component={CheckoutPage}></Route>
+  const [darkMode, setDarkMode] = useState(false);
+  const paletteType = darkMode ? 'dark' : 'light'
+  const theme = createTheme({
+    palette: {
+      mode: paletteType,
+      background: {
+        default: paletteType === 'light' ? '#eaeaea' : '#121212'
+      }
+    }
+  })
 
+  function handleThemeChange() {
+    setDarkMode(!darkMode);
+  }
 
-                </Routes>
-            </Container>
-        </ThemeProvider>
+  if (loading) return <LoadingComponent message='Initialising app...' />
 
+  return (
+    <ThemeProvider theme={theme}>
+      <ToastContainer position='bottom-right' hideProgressBar theme='colored' />
+      <CssBaseline />
+      <Header darkMode={darkMode} handleThemeChange={handleThemeChange} />
+      <Route exact path='/' component={HomePage} />
+      <Route path={'/(.+)'} render={() => (
+        <Container  sx={{ mt: 4 }}>
+          <Switch>
+            <Route exact path='/catalog' component={Catalog} />
+            <Route path='/catalog/:id' component={ProductDetails} />
+            <Route path='/about' component={AboutPage} />
+            <Route path='/contact' component={ContactPage} />
+            <Route path='/server-error' component={ServerError} />
+            <Route path='/basket' component={BasketPage} />
+            <PrivateRoute path='/checkout' component={CheckoutWrapper} />
+            <PrivateRoute path='/orders' component={Orders} />
+            <PrivateRoute roles={['Admin']} path='/inventory' component={Inventory} />
+            <Route path='/login' component={Login} />
+            <Route path='/register' component={Register} />
+            <Route component={NotFound} />
+          </Switch>
+        </Container>
+      )} />
 
-
-    );
+    </ThemeProvider>
+  );
 }
 
 export default App;
